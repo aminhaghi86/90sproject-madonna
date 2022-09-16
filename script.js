@@ -4,7 +4,6 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
     data.forEach((element) => {
       document.querySelector(".section-songs").innerHTML += `        
     <div class="item item${element.id}">
