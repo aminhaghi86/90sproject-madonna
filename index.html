@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Madonna Project</title>
   </head>
@@ -35,9 +36,21 @@
       </nav>
     </header>
     <!-- end of header -->
+    <!-- lottiefiles -->
+    <section style="display: grid; place-content: center;background-color: #45f0df;">
+      <lottie-player
+        src="https://assets3.lottiefiles.com/packages/lf20_fu7adquq.json"
+        background="transparent"
+        speed="2"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay
+      ></lottie-player>
+    </section>
+    <!--end of lottiefiles -->
     <!-- Main container -->
 
-    <main class="container-fluid">
+    <section class="container-fluid">
       <h1>SONGS</h1>
       <section data-aos="flip-down" data-aos-delay="350" class="section-songs">
         <!-- loading dynamic -->
@@ -158,7 +171,7 @@
           </div>
         </div>
       </section>
-    </main>
+    </section>
     <!-- End of Main container -->
     <!-- section animation -->
     <section class="container">
@@ -365,6 +378,7 @@
       </div>
     </section>
     <!-- end of section animation -->
+
     <!-- this is Footer section -->
     <footer class="page-footer">
       <div>Created by <span class="span-footer">Amin Haghi</span></div>
