@@ -385,12 +385,41 @@
       </div>
     </section>
     <!-- end of section animation -->
+    <!-- JS SECTION DOM -->
 
+
+    <section>
+      <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <!-- <h1>Upload and Display Image</h1> -->
+        <p>
+      Filename:
+      <input
+        type="file"
+        multiple="false"
+        accept="image/*"
+        id="finput"
+        onchange="upload()"
+      />
+    </p>
+    <canvas  id="canv1"></canvas>
+        <input type="submit" value="Submit">
+      </form>
+ 
+     
+
+  
+    </section>
+    <!-- END OF JS SECTION DOM -->
     <!-- this is Footer section -->
     <footer class="page-footer">
       <div>Created by <span class="span-footer">Amin Haghi</span></div>
     </footer>
     <!--End of  Footer -->
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
