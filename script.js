@@ -15,11 +15,27 @@ fetch(url)
   });
 //
 
-function upload(){
-  var imgcanvas = document.getElementById("canv1");
-  var fileinput = document.getElementById("finput");
-  var image = new SimpleImage(fileinput);
-  image.drawTo(imgcanvas);
-}
+const addElements = () => {
+  let ds = document.getElementById("displayTag");
+  let valueInput = document.getElementById("valueInput").value;
+  let textElement = document.getElementById("textAreaBox").value;
+  if (valueInput != "" && textElement != "") {
+    console.log(textElement);
+    let finalText = document.createTextNode(textElement);
+    let createElementValue = document.createElement(valueInput);
+    createElementValue.classList.add("hello");
+    createElementValue.appendChild(finalText);
+    ds.append(createElementValue);
+
+    // console.log(ds);
+    document.getElementById("valueInput").value = "";
+    document.getElementById("textAreaBox").value = "";
+  } else {
+    alert("you have to write in each input!!");
+  }
+};
+let btnAdd = document.getElementById("addElements");
+btnAdd.addEventListener("click", addElements);
+
 //
 

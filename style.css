@@ -16,10 +16,11 @@ body {
 }
 
 /* Header */
-header{
+.site-heaader {
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1000;
+  background-color: #44444490;
 }
 .nav-container {
   width: 98%;
@@ -139,6 +140,10 @@ header{
   right: 15px;
   font-size: 1.2rem;
   color: #0e2431;
+}
+.logo h1 {
+  color: white; 
+  letter-spacing: 2px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -405,18 +410,56 @@ header{
 }
 /* section animation */
 
-
-/* <!-- JS SECTION DOM --> */
-canvas {
-  height: 200px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  width: 200px;
-  object-fit: cover;
+/* <!-- section - create element dynamic by input --> */
+.user-dynamic-input {
+  background-color: var(--color-primary);
+  text-align: center;
+}
+.contents-input {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  background-color: var(--color-large);
+  padding: 15px 0;
+}
+.contents-input input {
+  width: 30%;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+.contents-input input:focus {
+padding-bottom: 8px;
+}
+.contents-input 
+textarea {
+  width: 50%;
+  border-radius: 5px;
+}
+.contents-input button {
+  background-color: #111d4a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: all .6s ease;
+  font-weight: 500;
+}
+.contents-input button:hover {
+  transform: translateY(2.5px);
+  color: var(--color-small);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.hello {
+  margin:5px 0px;
+  border-bottom: 5px solid rgb(38, 40, 33);
 }
 
-/* <!-- END OF JS SECTION DOM --> */
+/* <!-- section - create element dynamic by input --> */
+
 /* end of main container */
 
 /* footer */
