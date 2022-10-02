@@ -20,7 +20,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #44444490;
+  background-color: #0e0d0d90;
 }
 .nav-container {
   width: 98%;
@@ -96,7 +96,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #0e2431;
+  background: #f7f7f7;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -416,8 +416,7 @@ body {
   text-align: center;
 }
 .contents-input {
-  width: 80%;
-  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -449,7 +448,8 @@ textarea {
 }
 .contents-input button:hover {
   transform: translateY(2.5px);
-  color: var(--color-small);
+  background-color: var(--color-primary);
+  color: var(--color-div);
   font-weight: 600;
   text-decoration: underline;
 }
