@@ -16,17 +16,22 @@ fetch(url)
 //
 
 const addElements = () => {
+  if (valueInput != "" && textElement != "") {
   let ds = document.getElementById("displayTag");
   let valueInput = document.getElementById("valueInput").value;
   let textElement = document.getElementById("textAreaBox").value;
-  if (valueInput != "" && textElement != "") {
+  let finalText = document.createTextNode(textElement);
+  let createElementValue = document.createElement(valueInput);
+  createElementValue.classList.add("hello");
+  createElementValue.appendChild(finalText);
+  
+    if (valueInput === "div" || "section") {
+   
+    
+      createElementValue.classList.toggle("hello-section");
+    }
     console.log(textElement);
-    let finalText = document.createTextNode(textElement);
-    let createElementValue = document.createElement(valueInput);
-    createElementValue.classList.add("hello");
-    createElementValue.appendChild(finalText);
     ds.append(createElementValue);
-
     // console.log(ds);
     document.getElementById("valueInput").value = "";
     document.getElementById("textAreaBox").value = "";
@@ -38,4 +43,3 @@ let btnAdd = document.getElementById("addElements");
 btnAdd.addEventListener("click", addElements);
 
 //
-
