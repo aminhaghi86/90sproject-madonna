@@ -26,17 +26,23 @@ const addElements = () => {
     createElementValue.appendChild(finalText);
 
     if (valueInput === "div" || valueInput==="section") {
-      let widthSD = prompt("Please Enter Width in Pixel");
-      let heightSD = prompt("Please Enter Height in Pixel");
-      let backGrundColor = prompt("Please Enter BackgroundColor");
+    const widthSD = prompt("Please Enter Width in Pixel");
+    const heightSD = prompt("Please Enter Height in Pixel");
+    const backGrundColor = prompt("Please Enter BackgroundColor");
+    const color = prompt("Please Enter Color");
+    const borderRadius = prompt("Please Enter Border-Radius");
       console.log(widthSD);
       console.log(heightSD);
       console.log(backGrundColor);
+      console.log(color);
+      console.log(borderRadius);
       // createElementValue.classList.toggle("hello-section");
       
       createElementValue.style.width = `${widthSD}px`;
       createElementValue.style.height = `${heightSD}px`;
       createElementValue.style.backgroundColor = `${backGrundColor}`;
+      createElementValue.style.color = `${color}`;
+      createElementValue.style.borderRadius = `${borderRadius}px`;
     }
     console.log(textElement);
     ds.append(createElementValue);
@@ -51,3 +57,4 @@ let btnAdd = document.getElementById("addElements");
 btnAdd.addEventListener("click", addElements);
 
 //
+
