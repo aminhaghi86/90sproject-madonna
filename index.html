@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Madonna Project</title>
   </head>
@@ -25,11 +24,9 @@
               <h1>Madonna</h1>
             </div>
             <div class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Songs</a></li>
-              <li><a href="#">Videos</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#video">video</a></li>
+              <li><a href="#animation">Animation</a></li>
+              <li><a href="#javascript">Javascript</a></li>
             </div>
           </div>
         </div>
@@ -37,60 +34,19 @@
     </header>
     <!-- end of header -->
 
-    <!-- lottiefiles -->
-    <section 
-      style="
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-        background-color:#c2cae8;
-        padding: 140px 0;
-      "
-    >
-      <lottie-player
-        src="https://assets3.lottiefiles.com/packages/lf20_wcfkpodg.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px"
-        loop
-        controls
-        autoplay
-      ></lottie-player>
-
-      <lottie-player
-        src="https://assets10.lottiefiles.com/private_files/lf30_jeq5jw5i.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px"
-        loop
-        controls
-        autoplay
-      ></lottie-player>
-
-      <lottie-player
-        src="https://assets10.lottiefiles.com/private_files/lf30_qqbtrtae.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px"
-        loop
-        controls
-        autoplay
-      ></lottie-player>
-    </section>
-    <!--end of lottiefiles -->
     <!-- Main container -->
     <!-- video -->
 
     <!-- video -->
     <!-- End of Main container -->
 
-    <section class="container-fluid">
+    <section  class="container-fluid">
       <h1>SONGS</h1>
       <section data-aos="flip-down" data-aos-delay="350" class="section-songs">
         <!-- loading dynamic -->
       </section>
       <section
+      id="video"
         data-aos-delay="250"
         data-aos-duration="1500"
         data-aos="fade-right"
@@ -209,7 +165,7 @@
     </section>
     <!-- //video -->
     <!-- section animation -->
-    <section class="container">
+    <section id="animation" class="container">
       <h1>Hover Photo | Play & Download Song</h1>
 
       <div class="circle">
@@ -415,7 +371,7 @@
     <!-- end of section animation -->
 
     <!-- section - create element dynamic by input -->
-    <section class="user-dynamic-input">
+    <section id="javascript" class="user-dynamic-input">
       <div class="contents-input">
         <h1>Create Dynamic Element !</h1>
         <input
