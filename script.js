@@ -7,7 +7,7 @@ fetch(url)
     data.forEach((element) => {
       document.querySelector(".section-songs").innerHTML += `        
     <div class="item item${element.id}">
-    <img src="${element.imagesrc}" alt="#" />
+    <img src="${element.imagesrc}" alt="${element.alt}" />
     <h3>${element.nameofsong}</h3>
     <a href="${element.audiosrc}">Download</a>
     </div>`;
