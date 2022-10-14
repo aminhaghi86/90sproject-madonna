@@ -142,7 +142,7 @@ body {
   color: #0e2431;
 }
 .logo h1 {
-  color: white; 
+  color: white;
   letter-spacing: 2px;
 }
 
@@ -307,6 +307,15 @@ body {
 }
 
 /* end of section-video */
+.container-between {
+  padding: 45px 25px;
+  background-color: var(--color-large);
+  text-align: center;
+  font-size: 2rem;
+}
+.container-between2 {
+  background-color: var(--color-primary);
+}
 /* section animation */
 .container {
   padding: 45px 25px;
@@ -416,7 +425,6 @@ body {
   text-align: center;
 }
 .contents-input {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -428,13 +436,12 @@ body {
 .contents-input input {
   width: 30%;
   border-radius: 5px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .contents-input input:focus {
-padding-bottom: 8px;
+  padding-bottom: 8px;
 }
-.contents-input 
-textarea {
+.contents-input textarea {
   width: 50%;
   border-radius: 5px;
 }
@@ -443,7 +450,7 @@ textarea {
   color: white;
   padding: 8px 16px;
   border-radius: 5px;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
   font-weight: 500;
 }
 .contents-input button:hover {
@@ -454,19 +461,16 @@ textarea {
   text-decoration: underline;
 }
 .hello {
-
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:5px 0px;
- 
-  transition: all .5s ease-in;
+  margin: 5px 0px;
+
+  transition: all 0.5s ease-in;
 }
 .hello:hover {
-
- transform:translateX(10px)
+  transform: translateX(10px);
 }
-
 
 /* <!-- section - create element dynamic by input --> */
 
