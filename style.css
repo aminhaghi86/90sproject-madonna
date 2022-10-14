@@ -373,11 +373,9 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  /* filter: grayscale(); */
   transition: all 0.5s ease;
 }
 .circle .circle_image img:hover {
-  /* filter: drop-shadow(10px 2px 8px #48e519) blur(0px); */
   filter: grayscale(0) drop-shadow(0 0 1px crimson);
   transform: scale(1.12);
 }
