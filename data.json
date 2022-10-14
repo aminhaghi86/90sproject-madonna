@@ -1,62 +1,62 @@
 [
   {
     "id": 0,
-    "nameofsong": "song0",
+    "nameofsong": "Hung Up",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/190820221660879406.jpeg"
+    "imagesrc": "https://cdn.ontourmedia.io/madonna/non_secure/images/20171005/mdna_skin1507231479/mdna_skin1507231479.jpg"
   },
   {
     "id": 1,
-    "nameofsong": "song1",
+    "nameofsong": "Frozen",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/110820221660234770.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAU_fiC31dHrCCbRx5gdn2zUoQ8528Kqg08g&usqp=CAU"
   },
   {
     "id": 2,
-    "nameofsong": "song2",
+    "nameofsong": "Frozen on Fire",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/190820221660879406.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUD0bPh855xZRumFnEtU_SdRgDSIx4Yp7h5Q&usqp=CAU"
   },
   {
     "id": 3,
-    "nameofsong": "song3",
+    "nameofsong": "Like a Prayer",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/110820221660234770.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYvrCMv9itZ-MJoWZ_4gPO4kHgE2793XW0w&usqp=CAU"
   },
   {
     "id": 4,
-    "nameofsong": "song4",
+    "nameofsong": "Like a Virgin",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/190820221660879406.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkM78d0IIastUsMenBkqDxaGfLdRRS-zkSQ&usqp=CAU"
   },
   {
     "id": 5,
-    "nameofsong": "song5",
+    "nameofsong": "Material Girl",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/110820221660234770.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzNgbXoTbJ1t8SRPiqNBZ_F6FMUrpcmhSkg&usqp=CAU"
   },
   {
     "id": 6,
-    "nameofsong": "song6",
+    "nameofsong": "La Isla Bonita",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/190820221660879406.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyL6qOl9_IKEpV4L1sfdUlLnEBqAc-GP9iYw&usqp=CAU"
   },
   {
     "id": 7,
-    "nameofsong": "song7",
+    "nameofsong": "Vogue",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/110820221660234770.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdEpqqKlMqj5Z-8J2k8x1S7b5JEDOjGS3TMA&usqp=CAU"
   },
   {
     "id": 8,
-    "nameofsong": "song8",
+    "nameofsong": "Papa Don't Preach",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/190820221660879406.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytMHecw9QIpZW4g7l3qTGAdYslXiI6k49DQ&usqp=CAU"
   },
   {
     "id": 9,
-    "nameofsong": "song9",
+    "nameofsong": "4 Minutes",
     "audiosrc": "./Media/media/La Isla Bonita - MADONNA.mp3",
-    "imagesrc": "../Media/images/110820221660234770.jpeg"
+    "imagesrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgVRJK4FP7rniSlK1S6eQBPmM51GXoApkZ5g&usqp=CAU"
   }
 ]
