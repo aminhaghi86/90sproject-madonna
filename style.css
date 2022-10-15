@@ -4,6 +4,7 @@
   --color-large: #45f0df;
   --color-small: #c2cae8;
   --color-section: #8380b6;
+  --color-red: #E63946;
   --color-div: #111d4a;
   --font-size: 16px;
 }
@@ -226,7 +227,7 @@ body {
 }
 
 .item a {
-  color: white;
+  color: rgb(8, 8, 8);
   transition: all 0.4s ease-in-out;
   font-weight: bold;
   text-decoration: none;
@@ -312,9 +313,14 @@ body {
   background-color: var(--color-large);
   text-align: center;
   font-size: 2rem;
+  letter-spacing: 2px;
+
+  color: var(--color-red);
 }
 .container-between2 {
   background-color: var(--color-primary);
+  letter-spacing: 2px;
+  color: var(--color-red);
 }
 /* section animation */
 .container {
@@ -487,7 +493,7 @@ body {
   padding: 30px 15px;
 }
 .page-footer .span-footer {
-  color: var(--color-small) !important;
+  color: var(--color-red) !important;
   font-size: 18.5px;
   margin: 0 5px;
 }
