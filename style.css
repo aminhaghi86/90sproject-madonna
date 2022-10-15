@@ -4,7 +4,7 @@
   --color-large: #45f0df;
   --color-small: #c2cae8;
   --color-section: #8380b6;
-  --color-red: #E63946;
+  --color-red: #a51a8e;
   --color-div: #111d4a;
   --font-size: 16px;
 }
@@ -213,7 +213,7 @@ body {
   filter: blur(0px);
 }
 .item:hover {
-  background-color: var(--color-div);
+  background-color: var(--color-red);
   color: var(--color-small);
 }
 
@@ -234,7 +234,7 @@ body {
   transition: all 0.5s ease-in-out;
 }
 .item a:hover {
-  color: rgb(239, 13, 47);
+  color: var(--color-small);
   transform: scale(1.1);
   font-weight: 900;
   cursor: pointer;
@@ -320,7 +320,7 @@ body {
 .container-between2 {
   background-color: var(--color-primary);
   letter-spacing: 2px;
-  color: var(--color-red);
+  color: var(--color-small);
 }
 /* section animation */
 .container {
